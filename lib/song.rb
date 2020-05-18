@@ -6,7 +6,7 @@ class Song
   attr_reader :artist
   include Memorable
   extend Memorable
-  
+
   @@songs = []
 
   def initialize
